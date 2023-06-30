@@ -28,5 +28,5 @@ To run the codes for statistical distributions, execute the Plot_Distributions_M
 
 ## Matlab Frequency Tables folder
 
-This folder contains frequency tables for initial and transition distributions of Bayesia networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation.
+This folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation.
 
