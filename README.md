@@ -1,8 +1,3 @@
-
-![Logos2](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/58992009/a84be70c-1d77-4bfd-a9f0-c465548351ae)
-
-
-
 # CANADIAN AIRSPACE MODELS
 
 
@@ -34,4 +29,8 @@ To run the codes for statistical distributions, execute the Plot_Distributions_M
 ## Matlab Frequency Tables folder
 
 This folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation.
+
+
+![Logos2](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/58992009/a84be70c-1d77-4bfd-a9f0-c465548351ae)
+
 
