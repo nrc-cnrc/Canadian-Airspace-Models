@@ -4,9 +4,9 @@
 
 The `Plot_Distributions_Main.m` code generates distribution plots for 12 selected airports. The user is required to select one airport from the interactive window, and as output generates 4 plots:
 
-1. Distributions of variables divided by WTC at normal Y scale
-2. Distribution of variables divided by WTC at logarithmic Y scale (To appreciate the underlying distribution shape)
-3. Distribution of variables combined all WTC
+1. Distributions of variables divided by WTC (Wake Turbulance Class) at normal Y scale
+2. Distribution of variables divided by WTC at logarithmic Y scale (to appreciate the underlying distribution shape)
+3. Distribution of variables combined (all WTC)
 4. Pie chart of WTC percentage
 
 ## Usage
