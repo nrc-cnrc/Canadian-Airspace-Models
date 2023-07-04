@@ -8,15 +8,13 @@ This project is an ongoing, multi-year collaboration with Transport Canada (TC),
 
 ## Documents folder
 
-1. LTR-FRL-2023-0055.pdf details the process used for the statistical model creation, including an overview of the dataset and steps to generate Canadian statistical models. The report also includes the application and findings of the developed methodology for 12 airports across Canada.
+1. [LTR-FRL-2023-0055.pdf](Documents/LTR-FRL-2023-0055.pdf) details the process used for the statistical model creation, including an overview of the dataset and steps to generate Canadian statistical models. The report also includes the application and findings of the developed methodology for 12 airports across Canada.
 
-2. LTR-FRL-2023-0053.pdf provides the detailed description of the airspace classes and sensor equipment requirements in Canada as well as in the 12 selected airports.
+2. [LTR-FRL-2023-0053.pdf](Documents/LTR-FRL-2023-0053.pdf) provides the detailed description of the airspace classes and sensor equipment requirements in Canada as well as in the 12 selected airports.
 
 ## Distributions Plot folder
 
-This folder contains matlab scripts to generate the statistical distributions for the selected Canadian airports as described in LTR-FRL-2023-0055.pdf
-
-To run the codes for statistical distributions, execute the Plot_Distributions_Main.m file.
+This folder contains matlab scripts to generate the statistical distributions for the selected Canadian airports as described in [LTR-FRL-2023-0055.pdf](Documents/LTR-FRL-2023-0055.pdf). To run the codes for statistical distributions, execute the `Plot_Distributions_Main.m` file.
 
 ## Matlab Frequency Tables folder
 
@@ -33,6 +31,10 @@ Post [Issues](https://github.com/nrc-cnrc/Canadian-Airspace-Models/issues) to re
 genuine bugs, mistakes or even small typos in the scripts. Note that issues are **not meant for
 technical support;** open an issue only for an error which is specific and
 reproducible.
+
+## Collaborators
+
+![carleton](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/1444241/5d5547f2-1395-413d-9bc2-6d91da211c64)
 
 ---
 
