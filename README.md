@@ -7,9 +7,7 @@ This GitHub repository contains statistical airspace models for 12 selected Cana
 
 As the project continues to develop over the coming years, additional work is planned to be scoped for improvements and applications of the presented statistical models, to enable further efforts to ensure the safe and smooth integration of Remotely Piloted Aircraft Systems (RPAS) into the Canadian airspace.
 
-This project is an ongoing, multi-year collaboration between Transport Canada (TC), the National Research Council of Canada (the NRC), Carleton University, and NAV CANADA, and was inspired by the work previously done by the Massachusetts Institute of Technology Lincoln Laboratory (MIT-LL).
-
-Contact iryna.borshchova@nrc-cnrc.gc.ca or jeremylaliberte@cunet.carleton.ca for issues or suggestions.
+This project is an ongoing, multi-year collaboration with Transport Canada (TC),  Carleton University, and NAV CANADA, and was inspired by the work previously done by the Massachusetts Institute of Technology Lincoln Laboratory (MIT-LL).
 
 
 ## Documents folder
@@ -29,6 +27,24 @@ To run the codes for statistical distributions, execute the Plot_Distributions_M
 ## Matlab Frequency Tables folder
 
 This folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation.
+
+
+## Support
+
+ 
+
+For technical support, consider the
+[Discussions](https://github.com/nrc-cnrc/Canadian-Airspace-Models/discussions)
+ 
+
+## Issues
+
+ 
+
+Post [Issues](https://github.com/nrc-cnrc/Canadian-Airspace-Models/issues) to report
+genuine bugs, mistakes or even small typos in the scripts. Note that issues are **not meant for
+technical support;** open an issue only for an error which is specific and
+reproducible.
 
 
 ![Logos2](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/58992009/a84be70c-1d77-4bfd-a9f0-c465548351ae)
