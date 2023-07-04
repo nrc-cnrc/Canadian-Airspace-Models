@@ -34,7 +34,7 @@ This folder contains frequency tables for initial and transition distributions o
  
 
 For technical support, consider the
-[Discussions](https://github.com/nrc-cnrc/Canadian-Airspace-Models/discussions)
+[Discussions](https://github.com/nrc-cnrc/Canadian-Airspace-Models/discussions).
  
 
 ## Issues
