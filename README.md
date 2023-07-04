@@ -34,4 +34,6 @@ genuine bugs, mistakes or even small typos in the scripts. Note that issues are 
 technical support;** open an issue only for an error which is specific and
 reproducible.
 
-![Logos2](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/58992009/a84be70c-1d77-4bfd-a9f0-c465548351ae)
+---
+
+![nrc-footer](https://github.com/nrc-cnrc/Canadian-Airspace-Models/assets/1444241/754d7be7-0424-43ce-8b26-94dccb33eba1)
