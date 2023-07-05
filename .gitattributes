@@ -1,0 +1,239 @@
+## GITATTRIBUTES
+#
+# Details per file setting:
+#   text    These files should be normalized (i.e. convert CRLF to LF).
+#   binary  These files are binary and should be left untouched.
+#
+# Original source that has subsequently been modified
+# https://github.com/alexkaratarakis/gitattributes
+#
+# Auto detect
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
+*                 text=auto
+
+# Source code
+*.bash            text eol=lf
+*.bat             text eol=crlf
+*.cfg             text eol=lf
+*.cmd             text eol=crlf
+*.coffee          text
+*.css             text diff=css
+*.htm             text diff=html
+*.html            text diff=html
+*.ipynb           text
+*.inc             text
+*.ini             text
+*.js              text
+*.json            text
+*.jsx             text
+*.less            text
+*.ls              text
+*.m               text eol=lf
+*.map             text -diff
+*.od              text
+*.onlydata        text
+*.php             text diff=php
+*.pl              text
+*.ps1             text eol=crlf
+*.pxd             text diff=python eol=lf
+*.py              text diff=python eol=lf
+*.py3             text diff=python eol=lf
+*.pyw             text diff=python eol=lf
+*.pyx             text diff=python eol=lf
+*.pyz             text diff=python eol=lf
+*.pyi             text diff=python eol=lf
+*.rb              text diff=ruby
+*.sass            text
+*.scm             text
+*.scss            text diff=css
+*.sh              text eol=lf
+*.sql             text
+*.styl            text
+*.tag             text
+*.ts              text
+*.tsx             text
+*.xml             text
+*.xhtml           text diff=html
+*.yaml            text eol=lf
+
+
+# MATLAB Binary files
+*.p             binary
+*.mex*          binary
+*.fig           binary
+*.mat           binary
+*.mdl           binary
+*.slx           binary
+*.mdlp          binary
+*.slxp          binary
+*.sldd          binary
+*.mltbx         binary
+*.mlappinstall  binary
+*.mlpkginstall  binary
+*.mn            binary
+
+
+# Python Binary files
+*.db     binary
+*.p      binary
+*.pkl    binary
+*.pickle binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
+*.pyd    binary
+
+# Docker
+Dockerfile        text
+
+# Documentation
+*.ipynb           text
+*.markdown        text diff=markdown
+*.md              text diff=markdown
+*.mdwn            text diff=markdown
+*.mdown           text diff=markdown
+*.mkd             text diff=markdown
+*.mkdn            text diff=markdown
+*.mdtxt           text
+*.mdtext          text
+*.txt             text eol=lf
+AUTHORS           text
+CHANGELOG         text
+CHANGES           text
+CONTRIBUTING      text
+COPYING           text
+copyright         text
+*COPYRIGHT*       text
+INSTALL           text
+license           text
+LICENSE           text
+NEWS              text
+readme            text
+*README*          text
+TODO              text
+
+# Templates
+*.dot             text
+*.ejs             text
+*.haml            text
+*.handlebars      text
+*.hbs             text
+*.hbt             text
+*.jade            text
+*.latte           text
+*.mustache        text
+*.njk             text
+*.phtml           text
+*.tmpl            text
+*.tpl             text
+*.twig            text
+*.vue             text
+
+# Configs
+*.cnf             text
+*.conf            text
+*.config          text
+.editorconfig     text
+.env              text
+.gitattributes    text
+.gitconfig        text
+.htaccess         text
+*.lock            text -diff
+package.json      text eol=lf
+package-lock.json text -diff
+pnpm-lock.yaml    text eol=lf -diff
+yarn.lock         text -diff
+*.toml            text
+*.yaml            text
+*.yml             text
+browserslist      text
+Makefile          text
+makefile          text
+
+# Heroku
+Procfile          text
+
+# Graphics
+*.ai              binary
+*.bmp             binary
+*.eps             binary
+*.gif             binary
+*.gifv            binary
+*.ico             binary
+*.jng             binary
+*.jp2             binary
+*.jpg             binary
+*.jpeg            binary
+*.jpx             binary
+*.jxr             binary
+*.pdf             binary
+*.png             binary
+*.psb             binary
+*.psd             binary
+# SVG treated as an asset (binary) by default.
+*.svg             text
+# If you want to treat it as binary,
+# use the following line instead.
+# *.svg           binary
+*.svgz            binary
+*.tif             binary
+*.tiff            binary
+*.wbmp            binary
+*.webp            binary
+
+# Audio
+*.kar             binary
+*.m4a             binary
+*.mid             binary
+*.midi            binary
+*.mp3             binary
+*.ogg             binary
+*.ra              binary
+
+# Video
+*.3gpp            binary
+*.3gp             binary
+*.as              binary
+*.asf             binary
+*.asx             binary
+*.fla             binary
+*.flv             binary
+*.m4v             binary
+*.mng             binary
+*.mov             binary
+*.mp4             binary
+*.mpeg            binary
+*.mpg             binary
+*.ogv             binary
+*.swc             binary
+*.swf             binary
+*.webm            binary
+
+# Archives
+*.7z              binary
+*.gz              binary
+*.jar             binary
+*.rar             binary
+*.tar             binary
+*.zip             binary
+
+# Fonts
+*.ttf             binary
+*.eot             binary
+*.otf             binary
+*.woff            binary
+*.woff2           binary
+
+# Executables
+*.exe             binary
+*.pyc             binary
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc             text
+
+# Ignore files (like .npmignore or .gitignore)
+*.*ignore         text
+
+# Enable syntax highlighting for files with `.gitattributes` extensions.
+*.gitattributes linguist-language=gitattributes
