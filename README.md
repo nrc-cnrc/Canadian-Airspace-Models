@@ -4,7 +4,7 @@ This repository contains statistical airspace models for 12 selected Canadian ai
 
 As the project continues to develop over the coming years, additional work is planned to be scoped for improvements and applications of the presented statistical models, to enable further efforts to ensure the safe and smooth integration of Remotely Piloted Aircraft Systems (RPAS) into the Canadian airspace.
 
-This project is an ongoing, multi-year collaboration with Transport Canada (TC),  Carleton University, and NAV CANADA, and was inspired by the work previously done by the Massachusetts Institute of Technology Lincoln Laboratory (MIT-LL).
+This project is an ongoing, multi-year collaboration of the NRC with Transport Canada (TC),  Carleton University, and NAV CANADA, and was inspired by the work previously done by the Massachusetts Institute of Technology Lincoln Laboratory (MIT-LL).
 
 ## Files
 
