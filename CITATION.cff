@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Canadian Airspace Models
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Borshchova
+    family-names: Iryna
+    email: Iryna.Borshchova@nrc-cnrc.gc.ca
+    name-particle: Iryna
+    affiliation: NRC
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8118133
+  - type: url
+    value: 'https://github.com/nrc-cnrc/Canadian-Airspace-Models'
+abstract: Canadian Airspace Models
+license: MIT
+version: '1.0'
+date-released: '2023-07-05'
