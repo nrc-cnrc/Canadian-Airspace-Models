@@ -5,7 +5,7 @@ This folder contains MATLAB files with frequency tables and DAG structures for f
 - **Light, Medium, and Heavy aircraft models:** below 10000 ft, between 10000 and 25000 ft, and above 25000 ft.
 - **Helicopter model:** below 10000 ft.
 
-These frequency tables were constructed using Bayesian structures for the initial and transition distributions of each model, and they can be used as input to [MIT-LL software](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes). for generating aircraft tracks.
+These frequency tables were constructed using Bayesian structures for the initial and transition distributions of each model, and they can be used as input to [MIT-LL software](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) for generating aircraft tracks.
 
 Each MATLAB file contains four variables:
 
