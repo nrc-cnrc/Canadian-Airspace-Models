@@ -1,10 +1,11 @@
-# Canadian Airspace Models  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8118133.svg)](https://doi.org/10.5281/zenodo.8118133)
+# Canadian Airspace Models  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8118133.svg)](https://doi.org/10.5281/zenodo.8118133)
 
-This repository contains statistical airspace models for 12 selected Canadian airports as well as a mixed model of Canada. 
+This repository contains statistical airspace models of aircraft behavior for 12 selected Canadian airports as well as a mixed model of Canada. These machine learned models were trained by the National Research Council Canada (NRC).
 
 As the project continues to develop over the coming years, additional work is planned to be scoped for improvements and applications of the presented statistical models, to enable further efforts to ensure the safe and smooth integration of Remotely Piloted Aircraft Systems (RPAS) into the Canadian airspace.
 
-This project is an ongoing, multi-year collaboration of the NRC with Transport Canada (TC),  Carleton University, and NAV CANADA, and was inspired by the work previously done by the Massachusetts Institute of Technology Lincoln Laboratory (MIT-LL).
+This project is an ongoing, multi-year collaboration of the NRC with Transport Canada (TC),  Carleton University, and NAV CANADA, and was motivated by the work previously primarily completed by the Massachusetts Institute of Technology Lincoln Laboratory (MIT LL) for the [Airspace Encounter Models](https://airspace-encounter-models.github.io/) project. 
 
 ## Files
 
@@ -22,19 +23,15 @@ The `Distributions_Plot/` folder contains matlab scripts to generate the statist
 
 ### Matlab Frequency Tables
 
-The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation using [MIT-LL software](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes).
+The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation using the [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) repository from the Airspace Encounter Models organization that is primarily administrated by MIT LL. Note MIT LL has not yet independently validated the use of these models with `em-model-manned-bayes`. Some modification to `em-model-manned-bayes` maybe required to use these models.  
 
 ## Support
 
-For technical support, consider posting a question under
-[Discussions](https://github.com/nrc-cnrc/Canadian-Airspace-Models/discussions).
+For technical support, consider posting a question under [Discussions](https://github.com/nrc-cnrc/Canadian-Airspace-Models/discussions).
 
 ## Issues
 
-Post [Issues](https://github.com/nrc-cnrc/Canadian-Airspace-Models/issues) to report
-genuine bugs, mistakes or even small typos in the scripts. Note that issues are **not meant for
-technical support.** Please only open an issue for an error which is specific and
-reproducible.
+Post [Issues](https://github.com/nrc-cnrc/Canadian-Airspace-Models/issues) to report genuine bugs, mistakes or even small typos in the scripts. Note that issues are **not meant for technical support.** Please only open an issue for an error which is specific and reproducible.
 
 ## Collaborators
 

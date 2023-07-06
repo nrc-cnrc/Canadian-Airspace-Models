@@ -1,0 +1,5 @@
+SPDXVersion: SPDX-2.1
+PackageName: Canadian-Airspace-Models
+PackageOriginator: National Research Council Canada
+PackageHomePage: https://github.com/nrc-cnrc/Canadian-Airspace-Models
+PackageLicenseDeclared: MIT
