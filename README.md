@@ -1,6 +1,6 @@
-# Canadian Airspace Models
+# Canadian Airspace Models  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8118133.svg)](https://doi.org/10.5281/zenodo.8118133)
 
-This repository contains statistical airspace models for 12 selected Canadian airports as well as a mixed model of Canada.
+This repository contains statistical airspace models for 12 selected Canadian airports as well as a mixed model of Canada. 
 
 As the project continues to develop over the coming years, additional work is planned to be scoped for improvements and applications of the presented statistical models, to enable further efforts to ensure the safe and smooth integration of Remotely Piloted Aircraft Systems (RPAS) into the Canadian airspace.
 
