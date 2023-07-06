@@ -8,11 +8,17 @@ message: >-
   metadata from this file.
 type: software
 authors:
+- given-names: Krings
+    family-names: Teresa
+    affiliation: Carleton
   - given-names: Borshchova
     family-names: Iryna
     email: Iryna.Borshchova@nrc-cnrc.gc.ca
     name-particle: Iryna
     affiliation: NRC
+- given-names: Laliberte
+    family-names: Jeremy
+    affiliation: Carleton
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8118133
