@@ -13,8 +13,8 @@ Each MATLAB file contains six variables:
 - **DAG_Transition:** an adjacency matrix representing the Bayesian structure for the transition distribution.
 - **N_Initial:** frequency table counts for the initial distribution of each variable.
 - **N_Transition:** frequency table counts for the transition distribution of each variable.
-- **Cut_Points:**cut points.
-- **resample_rate:**resampling rate.
+- **Cut_Points:** cut points.
+- **resample_rate:** resampling rate.
 
 The ordering of variables in the adjacency matrix is essential in determining the conditional dependencies among them. For this dataset, the order used is:
 
