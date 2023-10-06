@@ -23,7 +23,7 @@ The `Distributions_Plot/` folder contains matlab scripts to generate the statist
 
 ### Matlab Frequency Tables
 
-The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model by the aircraft type (light, medium, heavy, and helicopter). The developed frequency tables can be used for further encounter generation between an RPAS and traditional aviation using the [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) repository from the Airspace Encounter Models organization that is primarily administrated by MIT LL. Note MIT LL has not yet independently validated the use of these models with `em-model-manned-bayes`. Some modification to `em-model-manned-bayes` may be required to use these models.  
+The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model by the aircraft type (light fixed-wing (general aviation aircraft), medium fixed-wing (airliner), heavy fixed-wing (cargo aircraft), helicopter, gyrocopter, and ultralight aircarft). The developed frequency tables can be used for further encounter generation between an RPAS and traditional aviation using the [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) repository from the Airspace Encounter Models organization that is primarily administrated by MIT LL. Note MIT LL has not yet independently validated the use of these models with `em-model-manned-bayes`. Some modification to `em-model-manned-bayes` may be required to use these models.  
 
 ## Support
 
