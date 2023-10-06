@@ -2,7 +2,7 @@
 
 This folder contains MATLAB files with frequency tables and DAG structures for fixed-wing aircraft,helicopter, gyrocopter, and ultralight aircraft models at different altitude layers. Specifically, the following models are included:
 
-- **Light (general aviation aircarft), Medium (airliner), and Heavy (cargo) fixed-wing aircraft models:** below 10000 ft, between 10000 and 25000 ft, and above 25000 ft.
+- **Light (general aviation), Medium (airliner), and Heavy (cargo) fixed-wing aircraft models:** below 10000 ft, between 10000 and 25000 ft, and above 25000 ft.
 - **Helicopter model:** below 10000 ft.
 - **Gyrocopter model**.
 - **Ultralight aircraft model**.
