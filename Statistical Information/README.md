@@ -1,4 +1,4 @@
-# Distributions plot
+# Statistical Information
 
 ## Overview
 

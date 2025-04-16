@@ -1,13 +1,13 @@
-# Frequency Tables
+# Bayesian Network Models
 
-This folder contains MATLAB files with frequency tables and DAG structures for fixed-wing aircraft,helicopter, gyrocopter, and ultralight aircraft models at different altitude layers. Specifically, the following models are included:
+This folder contains MATLAB files with Bayesian Network Models and DAG structures for fixed-wing aircraft,helicopter, gyrocopter, and ultralight aircraft models at different altitude layers. Specifically, the following models are included:
 
 - **Light (general aviation), Medium (airliner), and Heavy (cargo) fixed-wing aircraft models:** below 10000 ft, between 10000 and 25000 ft, and above 25000 ft.
 - **Helicopter model:** below 10000 ft.
 - **Gyrocopter model**.
 - **Ultralight aircraft model**.
 
-These frequency tables were constructed using Bayesian structures for the initial and transition distributions of each model, and they can be used as input to [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) for generating aircraft tracks.
+These models were constructed using Bayesian structures for the initial and transition distributions of each model, and they can be used as input to Python `Track Generation Tool/` or [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) for generating aircraft tracks.
 
 Each MATLAB file contains six variables:
 
