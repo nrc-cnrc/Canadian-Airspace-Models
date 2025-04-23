@@ -1,5 +1,5 @@
 # Canadian Airspace Models  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8118133.svg)](https://doi.org/10.5281/zenodo.8118133)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15269754.svg)](https://doi.org/10.5281/zenodo.15269754)  
 
 This repository includes statistical information on 12 Canadian airports, along with the models of different aircraft types. These machine learned models were trained by the National Research Council Canada (NRC) and Carleton University.
 
