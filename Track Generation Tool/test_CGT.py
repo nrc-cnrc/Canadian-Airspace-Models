@@ -1,3 +1,4 @@
+#Copyright (c) 2025 National Research Council Canada
 from cam_track_gen import generate_plot, gen_track, save_as_Matlab, save_to_csv
 
 def main():
